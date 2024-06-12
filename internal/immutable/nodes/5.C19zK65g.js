@@ -1,1 +1,0 @@
-import{b as o}from"../chunks/paths.CrOTZ1JT.js";import{r}from"../chunks/index.De_1-CT6.js";const t=async e=>{await e.parent(),r(302,`${o}/posts`)},n=Object.freeze(Object.defineProperty({__proto__:null,load:t},Symbol.toStringTag,{value:"Module"}));export{n as universal};
