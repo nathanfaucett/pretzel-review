@@ -1,1 +1,0 @@
-const t=""+new URL("../assets/1718058170368-brew-dog-0.XPthv23E.webp",import.meta.url).href,e={title:"Brew Dog",uri:"brew-dog",description:"Great Pretzel, big, good amount of chunked salt",review:8.9,address:"112 Krog St NE, Atlanta, GA 30307",images:[t],createdTs:1718058170368},r={};r[`${e.createdTs}-${e.uri}`]=e;export{r as p};
