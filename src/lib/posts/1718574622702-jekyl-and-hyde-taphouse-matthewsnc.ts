@@ -4,7 +4,7 @@ import image0 from '$lib/assets/1718574622702-jekyl-and-hyde-taphouse-matthewsnc
 const post: Post = {
   title: 'Jekyl and Hyde Taphouse Matthews,NC',
   uri: 'jekyl-and-hyde-taphouse-matthewsnc',
-  description: `Came with leemrick beer cheese and honey mustard.`,
+  description: `Came with limerick beer cheese and honey mustard.`,
   review: {
     flavor: 5.8,
     salt: 7,
@@ -13,7 +13,7 @@ const post: Post = {
   },
   address: '316 N Trade St. Matthews, NC 28105',
   images: [image0],
-  updatedTs: 1718574622702,
+  updatedTs: 1718575019218,
   createdTs: 1718574622702
 };
 
