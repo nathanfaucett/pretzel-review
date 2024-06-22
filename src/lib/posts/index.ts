@@ -1,3 +1,4 @@
+import post1719018191808 from './1719018191808-meltons-app-and-tap';
 import post1716782422460 from './1716782422460-crystal-beer-parlor';
 import post1718574622702 from './1718574622702-jekyl-and-hyde-taphouse-matthewsnc';
 import post1713067212563 from './1713067212563-bodensee';
@@ -31,3 +32,4 @@ posts[`${post1717646487699.createdTs}-${post1717646487699.uri}`] = post171764648
 posts[`${post1713067212563.createdTs}-${post1713067212563.uri}`] = post1713067212563;
 posts[`${post1718574622702.createdTs}-${post1718574622702.uri}`] = post1718574622702;
 posts[`${post1716782422460.createdTs}-${post1716782422460.uri}`] = post1716782422460;
+posts[`${post1719018191808.createdTs}-${post1719018191808.uri}`] = post1719018191808;
