@@ -2,8 +2,8 @@ import type { Post } from '.';
 import image0 from '$lib/assets/1718574622702-jekyl-and-hyde-taphouse-matthewsnc-0.webp';
 
 const post: Post = {
-	title: 'Jekyl and Hyde Taphouse Matthews,NC',
-	uri: 'jekyl-and-hyde-taphouse-matthewsnc',
+	title: 'Jekyl and Hyde Taphouse',
+	uri: 'jekyl-and-hyde-taphouse',
 	description: `Came with limerick beer cheese and honey mustard.`,
 	review: {
 		flavor: 5.8,
