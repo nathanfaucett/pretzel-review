@@ -1,5 +1,5 @@
 import type { Post } from '.';
-import image0 from '$lib/assets/1718574622702-jekyl-and-hyde-taphouse-matthewsnc-0.webp';
+import image0 from '$lib/assets/1718574622702-jekyl-and-hyde-taphouse-0.webp';
 
 const post: Post = {
 	title: 'Jekyl and Hyde Taphouse',
