@@ -133,11 +133,14 @@ export async function updatePost(originalPost: Post, update: UpdatePost) {
 			path: `src/lib/posts/${originalPost.createdTs}-${originalPost.uri}.ts`
 		} as any);
 	}
-	const postTs = await octokit.repos.getContent({
-		owner: 'nathanfaucett',
-		repo: 'pretzels',
-		path: `src/lib/posts/${post.createdTs}-${post.uri}.ts`
-	});
+	let postTs = { data: {} };
+	try {
+		postTs = await octokit.repos.getContent({
+			owner: 'nathanfaucett',
+			repo: 'pretzels',
+			path: `src/lib/posts/${post.createdTs}-${post.uri}.ts`
+		});
+	} catch (e) {}
 	await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
 		...postTs.data,
 		owner: 'nathanfaucett',
