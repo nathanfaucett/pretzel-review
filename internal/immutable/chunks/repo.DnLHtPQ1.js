@@ -3,7 +3,7 @@ ${e.images.map((t,s)=>`import image${s} from '$lib/assets/${t}';`).join(`
 `)}
 
 const post: Post = {
-  title: '${e.title.trim()}',
+  title: '${e.title.trim().replaceAll("'","\\'")}',
   uri: '${e.uri.trim()}',
   description: \`${e.description.trim()}\`,
   review: {
