@@ -172,7 +172,7 @@ function createPostFile(post: Post) {
 ${post.images.map((filename, index) => `import image${index} from '$lib/assets/${filename}';`).join('\n')}
 
 const post: Post = {
-  title: '${post.title.trim()}',
+  title: '${post.title.trim().replaceAll("'", "\\'")}',
   uri: '${post.uri.trim()}',
   description: \`${post.description.trim()}\`,
   review: {
