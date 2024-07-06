@@ -111,7 +111,6 @@
 	function onChange(
 		e: Event & { currentTarget: HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement }
 	) {
-		e.currentTarget.value = e.currentTarget.value;
 		fields.add(e.currentTarget.name);
 		validate();
 	}
