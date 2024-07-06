@@ -26,12 +26,12 @@ export type Post = {
 
 export function getReview(post: Post) {
 	return (
-		(post.review.flavor +
-			post.review.texture +
-			post.review.shape +
-			post.review.salt +
+		(post.review.flavor * 2 +
+			post.review.texture * 2 +
+			post.review.shape * 2 +
+			post.review.salt * 2 +
 			post.review.sides) /
-		5
+		9
 	);
 }
 
