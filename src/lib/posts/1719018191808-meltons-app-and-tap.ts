@@ -7,7 +7,7 @@ const post: Post = {
 	description: `Came with a super below average nacho cheese dip and a basic stone ground mustard`,
 	review: {
 		flavor: 5.1,
-		salt: 5.5,
+		salt: 5.1,
 		shape: 5.2,
 		texture: 4.6,
 		sides: 3.4

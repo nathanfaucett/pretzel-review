@@ -6,10 +6,10 @@ const post: Post = {
 	uri: 'twains-brewpub--billiards',
 	description: `Came with a wetter beer cheese that dipped surprisingly well, and a fantastic spicy mustard with a hint of Wasabi or horse radish.`,
 	review: {
-		flavor: 7.2,
-		salt: 6.1,
-		shape: 5,
-		texture: 5,
+		flavor: 5.8,
+		salt: 5.4,
+		shape: 3.7,
+		texture: 3.1,
 		sides: 6.3
 	},
 	address: '211 E Trinity Pl, Decatur, GA 30030',

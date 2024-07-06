@@ -4,11 +4,11 @@ import type { Post } from '.';
 const post: Post = {
 	title: 'Benchwarmers',
 	uri: 'benchwarmers',
-	description: 'Came with strandard brown mustard and beer cheese.',
+	description: 'Came with standard brown mustard and beer cheese.',
 	review: {
 		flavor: 8.9,
 		texture: 7.9,
-		shape: 7.7,
+		shape: 6.1,
 		salt: 8.1,
 		sides: 5.4
 	},

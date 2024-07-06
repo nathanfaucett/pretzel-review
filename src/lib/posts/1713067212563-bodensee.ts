@@ -7,9 +7,9 @@ const post: Post = {
 	description: `Comes with a thick beer cheese that is super mid.`,
 	review: {
 		flavor: 5.8,
-		salt: 6.8,
-		shape: 7.8,
-		texture: 6.6,
+		salt: 5.6,
+		shape: 6.8,
+		texture: 5.9,
 		sides: 1
 	},
 	address: '64 Munich Strasse, Helen, GA 30545',

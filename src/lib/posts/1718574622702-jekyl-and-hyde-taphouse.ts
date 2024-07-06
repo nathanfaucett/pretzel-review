@@ -6,11 +6,11 @@ const post: Post = {
 	uri: 'jekyl-and-hyde-taphouse',
 	description: `Came with limerick beer cheese and honey mustard.`,
 	review: {
-		flavor: 5.8,
-		salt: 7.9,
+		flavor: 7.1,
+		salt: 7.6,
 		shape: 9.5,
-		texture: 7.1,
-		sides: 6.1
+		texture: 7.6,
+		sides: 5.1
 	},
 	address: '316 N Trade St. Matthews, NC 28105',
 	images: [image0],
