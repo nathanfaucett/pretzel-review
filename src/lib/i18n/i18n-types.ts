@@ -159,6 +159,14 @@ type RootTranslation = {
 		 */
 		saltReviewPlaceholder: string
 		/**
+		 * S​i​d​e​s​ ​R​e​v​i​e​w
+		 */
+		sidesReviewLabel: string
+		/**
+		 * S​i​d​e​s​ ​R​e​v​i​e​w
+		 */
+		sidesReviewPlaceholder: string
+		/**
 		 * D​e​s​c​r​i​p​t​i​o​n
 		 */
 		descriptionLabel: string
@@ -358,6 +366,14 @@ export type TranslationFunctions = {
 		 * Salt Review
 		 */
 		saltReviewPlaceholder: () => LocalizedString
+		/**
+		 * Sides Review
+		 */
+		sidesReviewLabel: () => LocalizedString
+		/**
+		 * Sides Review
+		 */
+		sidesReviewPlaceholder: () => LocalizedString
 		/**
 		 * Description
 		 */

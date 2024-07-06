@@ -47,6 +47,8 @@ const en = {
 		shapeReviewPlaceholder: 'Shape Review',
 		saltReviewLabel: 'Salt Review',
 		saltReviewPlaceholder: 'Salt Review',
+		sidesReviewLabel: 'Sides Review',
+		sidesReviewPlaceholder: 'Sides Review',
 		descriptionLabel: 'Description',
 		descriptionPlaceholder: 'Description',
 		addressLabel: 'Address',

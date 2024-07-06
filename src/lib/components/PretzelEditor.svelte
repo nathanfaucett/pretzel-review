@@ -10,6 +10,7 @@
 		shapeReview: number;
 		textureReview: number;
 		flavorReview: number;
+		sidesReview: number;
 		images: File[];
 		address: string;
 	};
@@ -39,6 +40,9 @@
 			test('saltReview', LL.errors.message.required(), () => {
 				enforce(data.saltReview).isNotBlank();
 			});
+			test('sidesReview', LL.errors.message.required(), () => {
+				enforce(data.sidesReview).isNotBlank();
+			});
 			test('address', LL.errors.message.required(), () => {
 				enforce(data.address).isNotBlank();
 			});
@@ -61,6 +65,7 @@
 	export let shapeReview = 5;
 	export let textureReview = 5;
 	export let flavorReview = 5;
+	export let sidesReview = 5;
 	export let images: File[] = [];
 	export let address = '';
 	export let onEdit: (form: EditPostForm) => Promise<void>;
@@ -85,6 +90,7 @@
 				shapeReview,
 				textureReview,
 				flavorReview,
+				sidesReview,
 				description,
 				address,
 				images
@@ -103,6 +109,7 @@
 		fields.add('shapeReview');
 		fields.add('textureReview');
 		fields.add('flavorReview');
+		fields.add('sidesReview');
 		fields.add('images');
 		fields.add('address');
 		validate();
@@ -132,6 +139,7 @@
 					shapeReview,
 					textureReview,
 					flavorReview,
+					sidesReview,
 					description,
 					address,
 					images
@@ -163,7 +171,7 @@
 		/>
 		<InputResults name="title" {result} />
 	</div>
-	<div class="mb-2 grid grid-cols-2 md:grid-cols-4">
+	<div class="mb-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5">
 		<div class="mb-2">
 			<label for="flavorReview">{$LL.posts.flavorReviewLabel()}</label>
 			<input
@@ -219,6 +227,20 @@
 				on:input={onChange}
 			/>
 			<InputResults name="saltReview" {result} />
+		</div>
+		<div class="mb-2">
+			<label for="sidesReview">{$LL.posts.sidesReviewLabel()}</label>
+			<input
+				class="w-full {cn('sidesReview')}"
+				type="number"
+				step="0.1"
+				min="0"
+				max="10"
+				name="sidesReview"
+				bind:value={sidesReview}
+				on:input={onChange}
+			/>
+			<InputResults name="sidesReview" {result} />
 		</div>
 	</div>
 	<div class="mb-2">

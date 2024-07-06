@@ -11,6 +11,7 @@ export type CreatePost = {
 		texture: number;
 		shape: number;
 		salt: number;
+		sides: number;
 	};
 	address: string;
 	images: File[];
@@ -73,6 +74,7 @@ export type UpdatePost = {
 		texture: number;
 		shape: number;
 		salt: number;
+		sides: number;
 	};
 	address: string;
 	images: File[];
@@ -179,7 +181,8 @@ const post: Post = {
     flavor: ${post.review.flavor},
     salt: ${post.review.salt},
     shape: ${post.review.shape},
-    texture: ${post.review.texture}
+    texture: ${post.review.texture},
+    sides: ${post.review.sides}
   },
   address: '${post.address.trim()}',
   images: [${post.images.map((_filename, index) => `image${index}`).join(', ')}],
