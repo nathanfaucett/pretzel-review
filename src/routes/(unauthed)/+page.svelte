@@ -13,24 +13,31 @@
 </svelte:head>
 
 <div class="mx-auto mt-10 flex flex-grow flex-col px-10">
+	<h1>Pretzels</h1>
+	<hr />
 	<ul class="list-none">
 		{#each data.posts as post, index (post.uri)}
 			{@const review = getReview(post)}
-			<a
-				class="flex flex-row justify-between py-2"
-				href={`${base}/posts/${post.createdTs}-${post.uri}`}
-			>
-				<div class="flex flex-row">
+			<li class="flex flex-col justify-between py-2 md:flex-row">
+				<span
+					class="badge me-2 max-md:hidden"
+					class:red={review < 5}
+					class:yellow={review < 7}
+					class:green={review < 10}>{prettyToFixed(review)}/10</span
+				>
+				<a class="me-4 flex flex-grow" href={`${base}/posts/${post.createdTs}-${post.uri}`}
+					>{post.title}</a
+				>
+				<div class="flex flex-row justify-between">
 					<span
-						class="badge"
+						class="badge me-2 md:hidden"
 						class:red={review < 5}
 						class:yellow={review < 7}
 						class:green={review < 10}>{prettyToFixed(review)}/10</span
 					>
-					<span class="px-4">{post.title}</span>
+					<span>{new Date(post.createdTs).toLocaleDateString()}</span>
 				</div>
-				<span class="badge gray">{new Date(post.createdTs).toLocaleDateString()}</span>
-			</a>
+			</li>
 			{#if index < data.posts.length - 1}
 				<hr />
 			{/if}

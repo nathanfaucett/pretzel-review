@@ -25,7 +25,7 @@
 			<p class="badge gray">{new Date(data.post.createdTs).toLocaleDateString()}</p>
 		</div>
 		<p class="mb-2">{data.post.description}</p>
-		<div class="mb-2 grid grid-cols-2 md:grid-cols-5">
+		<div class="mb-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5">
 			<p
 				class="badge"
 				class:red={data.post.review.flavor < 5}
