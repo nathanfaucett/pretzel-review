@@ -33,6 +33,7 @@ const en = {
 		texture: 'Texture',
 		shape: 'Shape',
 		salt: 'Salt',
+		sides: 'Sides',
 		address: 'Address',
 		titleLabel: 'Title',
 		titlePlaceholder: 'Title',

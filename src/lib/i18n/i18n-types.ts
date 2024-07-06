@@ -103,6 +103,10 @@ type RootTranslation = {
 		 */
 		salt: string
 		/**
+		 * S​i​d​e​s
+		 */
+		sides: string
+		/**
 		 * A​d​d​r​e​s​s
 		 */
 		address: string
@@ -298,6 +302,10 @@ export type TranslationFunctions = {
 		 * Salt
 		 */
 		salt: () => LocalizedString
+		/**
+		 * Sides
+		 */
+		sides: () => LocalizedString
 		/**
 		 * Address
 		 */

@@ -7,6 +7,8 @@
 	import { getReview } from '$lib/posts';
 
 	export let data: PageData;
+
+	$: review = getReview(data.post);
 </script>
 
 <SvelteSeo title={data.post.title} description={data.post.description} />
@@ -17,15 +19,53 @@
 		<h2 class="mt-2 flex-grow break-words">{data.post.title}</h2>
 		<hr />
 		<div class="mb-2 flex flex-row items-end justify-between">
-			<h4>{prettyToFixed(getReview(data.post))}/10</h4>
-			<p>{new Date(data.post.createdTs).toLocaleDateString()}</p>
+			<p class="badge" class:red={review < 5} class:yellow={review < 7} class:green={review < 10}>
+				{prettyToFixed(review)}/10
+			</p>
+			<p class="badge gray">{new Date(data.post.createdTs).toLocaleDateString()}</p>
 		</div>
 		<p class="mb-2">{data.post.description}</p>
-		<div class="mb-2 grid grid-cols-2 md:grid-cols-4">
-			<p>{$LL.posts.flavor()}: {prettyToFixed(data.post.review.flavor)}/10</p>
-			<p>{$LL.posts.texture()}: {prettyToFixed(data.post.review.texture)}/10</p>
-			<p>{$LL.posts.shape()}: {prettyToFixed(data.post.review.shape)}/10</p>
-			<p>{$LL.posts.salt()}: {prettyToFixed(data.post.review.salt)}/10</p>
+		<div class="mb-2 grid grid-cols-2 md:grid-cols-5">
+			<p
+				class="badge"
+				class:red={data.post.review.flavor < 5}
+				class:yellow={data.post.review.flavor < 7}
+				class:green={data.post.review.flavor < 10}
+			>
+				{$LL.posts.flavor()}: {prettyToFixed(data.post.review.flavor)}/10
+			</p>
+			<p
+				class="badge"
+				class:red={data.post.review.texture < 5}
+				class:yellow={data.post.review.texture < 7}
+				class:green={data.post.review.texture < 10}
+			>
+				{$LL.posts.texture()}: {prettyToFixed(data.post.review.texture)}/10
+			</p>
+			<p
+				class="badge"
+				class:red={data.post.review.shape < 5}
+				class:yellow={data.post.review.shape < 7}
+				class:green={data.post.review.shape < 10}
+			>
+				{$LL.posts.shape()}: {prettyToFixed(data.post.review.shape)}/10
+			</p>
+			<p
+				class="badge"
+				class:red={data.post.review.salt < 5}
+				class:yellow={data.post.review.salt < 7}
+				class:green={data.post.review.salt < 10}
+			>
+				{$LL.posts.salt()}: {prettyToFixed(data.post.review.salt)}/10
+			</p>
+			<p
+				class="badge"
+				class:red={data.post.review.sides < 5}
+				class:yellow={data.post.review.sides < 7}
+				class:green={data.post.review.sides < 10}
+			>
+				{$LL.posts.sides()}: {prettyToFixed(data.post.review.sides)}/10
+			</p>
 		</div>
 		<div class="mb-2">
 			<p>{$LL.posts.address()}: {data.post.address}</p>

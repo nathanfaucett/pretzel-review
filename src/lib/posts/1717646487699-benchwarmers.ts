@@ -7,9 +7,10 @@ const post: Post = {
 	description: 'Came with strandard brown mustard and beer cheese.',
 	review: {
 		flavor: 8.9,
-		texture: 7.7,
-		shape: 7.1,
-		salt: 8.1
+		texture: 7.9,
+		shape: 7.7,
+		salt: 8.1,
+		sides: 5.4
 	},
 	address: '2775 Clairmont Rd, Atlanta, GA 30329',
 	images: [image0],

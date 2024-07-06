@@ -16,6 +16,7 @@ export type Post = {
 		texture: number;
 		shape: number;
 		salt: number;
+		sides: number;
 	};
 	address: string;
 	images: string[];
@@ -24,7 +25,14 @@ export type Post = {
 };
 
 export function getReview(post: Post) {
-	return (post.review.flavor + post.review.texture + post.review.shape + post.review.salt) / 4;
+	return (
+		(post.review.flavor +
+			post.review.texture +
+			post.review.shape +
+			post.review.salt +
+			post.review.sides) /
+		5
+	);
 }
 
 export const posts: { [uri: string]: Post } = {};

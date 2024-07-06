@@ -46,19 +46,13 @@
 
 	html,
 	body {
-		@apply relative flex h-full w-full flex-col
-			overflow-hidden bg-gray-100
-			text-gray-950 dark:bg-gray-900 dark:text-white;
+		@apply relative flex h-full w-full flex-col overflow-hidden bg-gray-100 text-gray-950 dark:bg-gray-900 dark:text-white;
 	}
 
 	input,
 	select,
 	textarea {
-		@apply border border-gray-300
-			bg-gray-100 px-3 py-1
-			text-sm text-gray-950
-			outline-none focus:outline-none dark:border-gray-900
-			dark:bg-gray-700 dark:text-white;
+		@apply border border-gray-300 bg-gray-100 px-3 py-1 text-sm text-gray-950 outline-none focus:outline-none dark:border-gray-900 dark:bg-gray-700 dark:text-white;
 	}
 	select {
 		-webkit-appearance: none;
@@ -135,10 +129,7 @@
 
 @layer components {
 	.btn {
-		@apply cursor-pointer px-3 py-1
-			text-center text-base font-bold uppercase
-			no-underline outline-none
-			transition-all duration-150 ease-linear focus:outline-none;
+		@apply cursor-pointer px-3 py-1 text-center text-base font-bold uppercase no-underline outline-none transition-all duration-150 ease-linear focus:outline-none;
 	}
 	.btn[disabled] {
 		@apply cursor-not-allowed opacity-50;
@@ -185,7 +176,7 @@
 		@apply bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300;
 	}
 	.badge.blue {
-		@apply bg-mulberry-wood-100 text-mulberry-wood-900 dark:text-mulberry-wood-300 dark:bg-blue-900;
+		@apply bg-blue-100 text-blue-900 dark:bg-blue-900 dark:text-blue-300;
 	}
 	.badge.yellow {
 		@apply bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300;
