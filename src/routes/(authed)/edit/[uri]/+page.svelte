@@ -36,7 +36,8 @@
 				flavor: form.flavorReview,
 				texture: form.textureReview,
 				shape: form.shapeReview,
-				salt: form.saltReview
+				salt: form.saltReview,
+				sides: form.sidesReview
 			},
 			description: form.description,
 			address: form.address,
