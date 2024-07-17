@@ -1,3 +1,4 @@
+import post1721251723092 from './1721251723092-the-lost-druid-brewery--distillery';
 import post1721251536575 from './1721251536575-brick-store-pub';
 import post1716782422460 from './1716782422460-crystal-beer-parlor';
 import post1719697913116 from './1719697913116-twains-brewpub--billiards';
@@ -47,3 +48,4 @@ posts[`${post1718574622702.createdTs}-${post1718574622702.uri}`] = post171857462
 posts[`${post1719697913116.createdTs}-${post1719697913116.uri}`] = post1719697913116;
 posts[`${post1716782422460.createdTs}-${post1716782422460.uri}`] = post1716782422460;
 posts[`${post1721251536575.createdTs}-${post1721251536575.uri}`] = post1721251536575;
+posts[`${post1721251723092.createdTs}-${post1721251723092.uri}`] = post1721251723092;
