@@ -9,12 +9,12 @@ const post: Post = {
     flavor: 8.3,
     salt: 5.2,
     shape: 3.4,
-    texture: 6.3,
-    sides: 3.3
+    texture: 5.3,
+    sides: 4.6
   },
   address: '340 W Ponce de Leon Ave, Decatur, GA 30030',
   images: [image0],
-  updatedTs: 1721417998627,
+  updatedTs: 1721433505470,
   createdTs: 1721417998627
 };
 
