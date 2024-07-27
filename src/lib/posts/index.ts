@@ -31,14 +31,12 @@ export type Post = {
 };
 
 export function getReview(post: Post) {
-	return (
-		(post.review.flavor * 2 +
-			post.review.texture * 2 +
-			post.review.shape * 2 +
-			post.review.salt * 2 +
-			post.review.sides) /
-		9
-	);
+	const flavor = (post.review.flavor / 10) * 0.5;
+	const texture = (post.review.texture / 10) * 0.3;
+	const shape = (post.review.shape / 10) * 0.05;
+	const salt = (post.review.salt / 10) * 0.1;
+	const sides = (post.review.sides / 10) * 0.05;
+	return (flavor + texture + shape + salt + sides) * 10;
 }
 
 export const posts: { [uri: string]: Post } = {};
