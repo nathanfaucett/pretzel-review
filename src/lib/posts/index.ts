@@ -1,3 +1,4 @@
+import post1722103563963 from './1722103563963-cypress-street-pint--plate';
 import post1722098861162 from './1722098861162-thinking-man-tavern';
 import post1721738517602 from './1721738517602-der-biergarten';
 import post1721417998627 from './1721417998627-mellow-mushroom-decatur';
@@ -55,3 +56,4 @@ posts[`${post1721251723092.createdTs}-${post1721251723092.uri}`] = post172125172
 posts[`${post1721417998627.createdTs}-${post1721417998627.uri}`] = post1721417998627;
 posts[`${post1721738517602.createdTs}-${post1721738517602.uri}`] = post1721738517602;
 posts[`${post1722098861162.createdTs}-${post1722098861162.uri}`] = post1722098861162;
+posts[`${post1722103563963.createdTs}-${post1722103563963.uri}`] = post1722103563963;
