@@ -66,6 +66,10 @@ type RootTranslation = {
 		 * P​r​e​t​z​e​l​s
 		 */
 		title: string
+		/**
+		 * S​o​f​t​ ​P​r​e​t​z​e​l​s​ ​R​e​v​i​e​w​ ​w​e​b​s​i​t​e
+		 */
+		description: string
 	}
 	header: {
 		/**
@@ -274,6 +278,10 @@ export type TranslationFunctions = {
 		 * Pretzels
 		 */
 		title: () => LocalizedString
+		/**
+		 * Soft Pretzels Review website
+		 */
+		description: () => LocalizedString
 	}
 	header: {
 		/**

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
+	import SvelteSeo from 'svelte-seo';
 	import LL from '$lib/i18n/i18n-svelte';
 	import type { PageData } from './posts/$types';
 	import { getReview } from '$lib/posts';
@@ -11,6 +12,12 @@
 <svelte:head>
 	<title>{$LL.posts.title()}</title>
 </svelte:head>
+
+<SvelteSeo
+	title={$LL.home.title()}
+	description={$LL.home.description()}
+	keywords={'pretzel,soft,bavarian,review,atlanta,atl,ga,georgia,nathan,maggie,margaret,faucett'}
+/>
 
 <div class="mx-auto mt-10 flex flex-grow flex-col px-10">
 	<h1>Pretzels</h1>
