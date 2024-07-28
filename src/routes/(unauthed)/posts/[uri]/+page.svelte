@@ -11,7 +11,17 @@
 	$: review = getReview(data.post);
 </script>
 
-<SvelteSeo title={data.post.title} description={data.post.description} />
+<SvelteSeo
+	title={data.post.title}
+	description={data.post.description}
+	openGraph={{
+		title: data.post.title,
+		description: data.post.description,
+		images: data.post.images.map((image) => ({
+			url: image
+		}))
+	}}
+/>
 
 <div class="container mx-auto mb-20 mt-10 flex flex-grow flex-col px-10">
 	<post class="mx-auto max-w-2xl">
