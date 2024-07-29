@@ -32,8 +32,8 @@ export async function GET() {
 
 	const urls = postsSorted.map(
 		(post) => `   <url>
-      <loc>${origin}/posts/${post.createdTs.valueOf()}-${post.uri}</loc>
-      <lastmod>${post.updatedTs.valueOf()}</lastmod>
+      <loc>${origin}/posts/${post.createdTs}-${post.uri}</loc>
+      <lastmod>${new Date(post.updatedTs).toISOString()}</lastmod>
     </url>`
 	);
 	const staticUrls = staticPages.map(
