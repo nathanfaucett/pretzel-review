@@ -1,3 +1,4 @@
+import post1717646487699 from './1717646487699-benchwarmers';
 import post1722103563963 from './1722103563963-cypress-street-pint--plate';
 import post1722098861162 from './1722098861162-thinking-man-tavern';
 import post1721738517602 from './1721738517602-der-biergarten';
@@ -10,7 +11,6 @@ import post1718574622702 from './1718574622702-jekyl-and-hyde-taphouse';
 import post1719270711525 from './1719270711525-the-springs-cinema--taphouse';
 import post1719018191808 from './1719018191808-meltons-app-and-tap';
 import post1713067212563 from './1713067212563-bodensee';
-import post1717646487699 from './1717646487699-benchwarmers';
 import post1718058170368 from './1713067212563-bodensee';
 
 export type Post = {
@@ -42,7 +42,6 @@ export function getReview(post: Post) {
 export const posts: { [uri: string]: Post } = {};
 
 posts[`${post1718058170368.createdTs}-${post1718058170368.uri}`] = post1718058170368;
-posts[`${post1717646487699.createdTs}-${post1717646487699.uri}`] = post1717646487699;
 posts[`${post1713067212563.createdTs}-${post1713067212563.uri}`] = post1713067212563;
 posts[`${post1719018191808.createdTs}-${post1719018191808.uri}`] = post1719018191808;
 posts[`${post1719270711525.createdTs}-${post1719270711525.uri}`] = post1719270711525;
@@ -55,3 +54,4 @@ posts[`${post1721417998627.createdTs}-${post1721417998627.uri}`] = post172141799
 posts[`${post1721738517602.createdTs}-${post1721738517602.uri}`] = post1721738517602;
 posts[`${post1722098861162.createdTs}-${post1722098861162.uri}`] = post1722098861162;
 posts[`${post1722103563963.createdTs}-${post1722103563963.uri}`] = post1722103563963;
+posts[`${post1717646487699.createdTs}-${post1717646487699.uri}`] = post1717646487699;
