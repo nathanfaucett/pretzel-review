@@ -1,21 +1,21 @@
-import image0 from '$lib/assets/1717646487699-benchwarmers-0.webp';
 import type { Post } from '.';
+import image0 from '$lib/assets/1717646487699-benchwarmers-0.webp';
 
 const post: Post = {
-	title: 'Benchwarmers',
-	uri: 'benchwarmers',
-	description: 'Came with standard brown mustard and beer cheese.',
-	review: {
-		flavor: 8.9,
-		texture: 7.9,
-		shape: 6.1,
-		salt: 8.1,
-		sides: 5.4
-	},
-	address: '2775 Clairmont Rd, Atlanta, GA 30329',
-	images: [image0],
-	updatedTs: 1717646487699,
-	createdTs: 1717646487699
+  title: 'Benchwarmers',
+  uri: 'benchwarmers',
+  description: `Came with standard brown mustard and beer cheese.`,
+  review: {
+    flavor: 8.9,
+    salt: 8.1,
+    shape: 6.1,
+    texture: 7.9,
+    sides: 5
+  },
+  address: '2775 Clairmont Rd, Atlanta, GA 30329',
+  images: [image0],
+  updatedTs: 1722442778674,
+  createdTs: 1717646487699
 };
 
 export default post;
