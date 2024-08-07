@@ -22,10 +22,7 @@ export function getOrigin() {
 	if (browser) {
 		return window.location.origin;
 	}
-	if (building) {
-		return PUBLIC_URL;
-	}
-	return '';
+	return PUBLIC_URL;
 }
 
 export function prettyToFixed(x: number, fractionDigits: number = 1) {
