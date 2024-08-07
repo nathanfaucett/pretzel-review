@@ -30,21 +30,25 @@ export async function GET() {
 				.replace('/src/routes', origin)
 		);
 
-	const urls = postsSorted.map(
-		(post) => `   <url>
+	const urls = postsSorted
+		.map(
+			(post) => `   <url>
       <loc>${origin}/posts/${post.createdTs}-${post.uri}</loc>
       <lastmod>${new Date(post.updatedTs).toISOString()}</lastmod>
     </url>`
-	);
-	const staticUrls = staticPages.map(
-		(page) =>
-			`   <url>
+		)
+		.sort();
+	const staticUrls = staticPages
+		.map(
+			(page) =>
+				`   <url>
       <loc>${page}</loc>
       <lastmod>${now.toISOString()}</lastmod>
     </url>`
-	);
+		)
+		.sort((a, b) => a.length - b.length);
 
-	return new Response(`${xmlHeader}\n${urls.join('\n')}${staticUrls.join('\n')}\n${xmlFooter}`, {
+	return new Response(`${xmlHeader}\n${staticUrls.join('\n')}\n${urls.join('\n')}${xmlFooter}`, {
 		headers: {
 			'Content-Type': 'application/xml'
 		}
