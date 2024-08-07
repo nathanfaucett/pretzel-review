@@ -9,10 +9,6 @@
 	export let data: PageData;
 </script>
 
-<svelte:head>
-	<title>{$LL.posts.title()}</title>
-</svelte:head>
-
 <SvelteSeo
 	title={$LL.home.title()}
 	description={$LL.home.description()}
