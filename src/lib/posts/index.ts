@@ -1,3 +1,4 @@
+import post1723141235240 from './1723141235240-sam-adams-atlanta-brew-house';
 import post1717646487699 from './1717646487699-benchwarmers';
 import post1722103563963 from './1722103563963-cypress-street-pint--plate';
 import post1722098861162 from './1722098861162-thinking-man-tavern';
@@ -55,3 +56,4 @@ posts[`${post1721738517602.createdTs}-${post1721738517602.uri}`] = post172173851
 posts[`${post1722098861162.createdTs}-${post1722098861162.uri}`] = post1722098861162;
 posts[`${post1722103563963.createdTs}-${post1722103563963.uri}`] = post1722103563963;
 posts[`${post1717646487699.createdTs}-${post1717646487699.uri}`] = post1717646487699;
+posts[`${post1723141235240.createdTs}-${post1723141235240.uri}`] = post1723141235240;
