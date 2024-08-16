@@ -12,7 +12,7 @@ const config = {
 		}),
 		appDir: 'internal',
 		paths: {
-			base: process.env.USE_BASE_PATH ? '/pretzels' : ''
+			base: process.env.USE_BASE_PATH ? '/pretzel-review' : ''
 		}
 	}
 };
