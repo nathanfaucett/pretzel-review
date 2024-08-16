@@ -2,7 +2,7 @@
 	import { base } from '$app/paths';
 	import SvelteSeo from 'svelte-seo';
 	import LL from '$lib/i18n/i18n-svelte';
-	import type { PageData } from './posts/$types';
+	import type { PageData } from './$types';
 	import { getReview } from '$lib/posts';
 	import { prettyToFixed } from '$lib/util';
 
@@ -16,7 +16,7 @@
 />
 
 <div class="mx-auto mt-10 flex flex-grow flex-col px-10">
-	<h1>Pretzels</h1>
+	<h1>Pretzel Review</h1>
 	<hr />
 	<ul class="list-none">
 		{#each data.posts as post, index (post.uri)}

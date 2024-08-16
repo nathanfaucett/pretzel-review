@@ -11,7 +11,8 @@ export function toURLSafe(value: string): string {
 		.trim()
 		.toLowerCase()
 		.replace(/[\s]+/gi, '-')
-		.replace(/[^\w\d\-_]+/gi, '');
+		.replace(/[^\w\d\-_]+/gi, '')
+		.replace(/^-+|-+$/g, '');
 }
 
 export function replaceExt(filename: string, ext: string) {
@@ -66,4 +67,51 @@ export function utf8ToBase64(value: string) {
 
 export function base64ToUtf8(base64: string) {
 	return decodeURIComponent(escape(atob(base64)));
+}
+
+const STOP_WORDS = new Set([
+	'a',
+	'an',
+	'and',
+	'are',
+	'as',
+	'at',
+	'be',
+	'but',
+	'by',
+	'for',
+	'if',
+	'in',
+	'into',
+	'is',
+	'it',
+	'no',
+	'not',
+	'of',
+	'on',
+	'or',
+	'such',
+	'that',
+	'the',
+	'their',
+	'then',
+	'there',
+	'these',
+	'they',
+	'this',
+	'to',
+	'was',
+	'will',
+	'with'
+]);
+
+export function keywords(...values: string[]) {
+	return Array.from(
+		new Set(
+			values
+				.flatMap((value) => value.split(/[\s]+/gi))
+				.map((value) => toURLSafe(value))
+				.filter((value) => value && !STOP_WORDS.has(value))
+		)
+	).join(',');
 }
