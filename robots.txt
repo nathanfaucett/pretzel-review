@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nathanfaucett.github.io/pretzels/sitemap.xml
+Sitemap: https://nathanfaucett.github.io/pretzel-review/sitemap.xml
