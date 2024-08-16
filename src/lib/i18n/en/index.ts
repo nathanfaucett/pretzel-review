@@ -20,11 +20,8 @@ const en = {
 		signIn: 'Sign in'
 	},
 	home: {
-		title: 'Pretzels',
+		title: 'Pretzel Review',
 		description: 'Soft Pretzels Review website'
-	},
-	header: {
-		title: 'Pretzels'
 	},
 	posts: {
 		title: 'Posts',

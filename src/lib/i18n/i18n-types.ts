@@ -63,19 +63,13 @@ type RootTranslation = {
 	}
 	home: {
 		/**
-		 * P​r​e​t​z​e​l​s
+		 * P​r​e​t​z​e​l​ ​R​e​v​i​e​w
 		 */
 		title: string
 		/**
 		 * S​o​f​t​ ​P​r​e​t​z​e​l​s​ ​R​e​v​i​e​w​ ​w​e​b​s​i​t​e
 		 */
 		description: string
-	}
-	header: {
-		/**
-		 * P​r​e​t​z​e​l​s
-		 */
-		title: string
 	}
 	posts: {
 		/**
@@ -275,19 +269,13 @@ export type TranslationFunctions = {
 	}
 	home: {
 		/**
-		 * Pretzels
+		 * Pretzel Review
 		 */
 		title: () => LocalizedString
 		/**
 		 * Soft Pretzels Review website
 		 */
 		description: () => LocalizedString
-	}
-	header: {
-		/**
-		 * Pretzels
-		 */
-		title: () => LocalizedString
 	}
 	posts: {
 		/**
