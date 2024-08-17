@@ -5,9 +5,9 @@ export const prerender = true;
 
 export async function GET() {
 	return json({
-		name: 'Pretzels',
-		short_name: 'Pretzels',
-		description: 'Pretzels: Pretzel Reviews',
+		name: 'Pretzel Review',
+		short_name: 'Pretzel Review',
+		description: 'Pretzel Review',
 		version: '1.0',
 		manifest_version: 3,
 		icons: [
