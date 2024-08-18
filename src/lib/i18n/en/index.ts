@@ -21,7 +21,16 @@ const en = {
 	},
 	home: {
 		title: 'Pretzel Review',
-		description: 'Soft Pretzels Review website'
+		description: 'Soft Pretzels Review website',
+		searchPlaceholder: 'Search...',
+		sortBy: {
+			date: 'Date',
+			review: 'Review'
+		},
+		sortOrder: {
+			asc: 'Ascending',
+			desc: 'Descending'
+		}
 	},
 	posts: {
 		title: 'Posts',

@@ -70,6 +70,30 @@ type RootTranslation = {
 		 * S​o​f​t​ ​P​r​e​t​z​e​l​s​ ​R​e​v​i​e​w​ ​w​e​b​s​i​t​e
 		 */
 		description: string
+		/**
+		 * S​e​a​r​c​h​.​.​.
+		 */
+		searchPlaceholder: string
+		sortBy: {
+			/**
+			 * D​a​t​e
+			 */
+			date: string
+			/**
+			 * R​e​v​i​e​w
+			 */
+			review: string
+		}
+		sortOrder: {
+			/**
+			 * A​s​c​e​n​d​i​n​g
+			 */
+			asc: string
+			/**
+			 * D​e​s​c​e​n​d​i​n​g
+			 */
+			desc: string
+		}
 	}
 	posts: {
 		/**
@@ -276,6 +300,30 @@ export type TranslationFunctions = {
 		 * Soft Pretzels Review website
 		 */
 		description: () => LocalizedString
+		/**
+		 * Search...
+		 */
+		searchPlaceholder: () => LocalizedString
+		sortBy: {
+			/**
+			 * Date
+			 */
+			date: () => LocalizedString
+			/**
+			 * Review
+			 */
+			review: () => LocalizedString
+		}
+		sortOrder: {
+			/**
+			 * Ascending
+			 */
+			asc: () => LocalizedString
+			/**
+			 * Descending
+			 */
+			desc: () => LocalizedString
+		}
 	}
 	posts: {
 		/**

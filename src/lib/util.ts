@@ -85,6 +85,7 @@ const STOP_WORDS = new Set([
 	'into',
 	'is',
 	'it',
+	'its',
 	'no',
 	'not',
 	'of',
@@ -109,7 +110,7 @@ export function keywords(...values: string[]) {
 	return Array.from(
 		new Set(
 			values
-				.flatMap((value) => value.split(/[\s]+/gi))
+				.flatMap((value) => value.split(/[\s,]+/gi))
 				.map((value) => toURLSafe(value))
 				.filter((value) => value && !STOP_WORDS.has(value))
 		)

@@ -79,7 +79,12 @@
 			</p>
 		</div>
 		<div class="mb-2">
-			<p>{$LL.posts.address()}: {data.post.address}</p>
+			<a
+				target="_blank"
+				href="https://maps.google.com/?q={encodeURIComponent(
+					`${data.post.title} ${data.post.address}`
+				)}">{$LL.posts.address()}: {data.post.address}</a
+			>
 		</div>
 		<div class="text-center">
 			{#each data.post.images as image}
