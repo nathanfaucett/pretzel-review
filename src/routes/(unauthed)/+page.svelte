@@ -105,7 +105,7 @@
 	<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 		{#each posts as post (post.uri)}
 			{@const review = getReview(post)}
-			<a class="flex flex-col py-2" href={`${base}/posts/${post.createdTs}-${post.uri}`}>
+			<a class="flex flex-col" href={`${base}/posts/${post.createdTs}-${post.uri}`}>
 				<h6 class="overflow-hidden text-ellipsis text-nowrap md:flex-row">
 					{post.title}
 				</h6>
@@ -133,9 +133,6 @@
 						>
 						<span>{new Date(post.createdTs).toLocaleDateString()}</span>
 					</div>
-				</div>
-				<div class="mb-2">
-					<p>{post.address}</p>
 				</div>
 			</a>
 		{/each}
