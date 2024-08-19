@@ -6,15 +6,15 @@ const post: Post = {
   uri: 'thinking-man-tavern',
   description: `One reviewer said it reminded her of corndogs, the cheese dip was fantastic and the mustard is near perfect for pretzels.`,
   review: {
-    flavor: 4.6,
+    flavor: 4.1,
     salt: 7.1,
-    shape: 4.4,
-    texture: 3.9,
-    sides: 9.6
+    shape: 3.9,
+    texture: 3.6,
+    sides: 5.5
   },
   address: '537 W Howard Ave, Decatur, GA 30030',
   images: [image0],
-  updatedTs: 1722098861162,
+  updatedTs: 1724066375928,
   createdTs: 1722098861162
 };
 
