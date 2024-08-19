@@ -7,14 +7,14 @@ const post: Post = {
   description: `Don't judge a pretzel from its shape. This pretzel is serving the delectable outer shell crunch we all crave with a perfectly balanced middle that will hang on your tastebuds for long after your meal is complete.`,
   review: {
     flavor: 9.7,
-    salt: 5.1,
+    salt: 6.1,
     shape: 3,
     texture: 9.9,
-    sides: 5
+    sides: 5.4
   },
   address: '1156 Euclid Ave NE, Atlanta, GA 30307',
   images: [image0],
-  updatedTs: 1723938811959,
+  updatedTs: 1724065919882,
   createdTs: 1723938214780
 };
 
