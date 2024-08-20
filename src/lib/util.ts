@@ -106,13 +106,21 @@ const STOP_WORDS = new Set([
 	'with'
 ]);
 
-export function keywords(...values: string[]) {
+export function toKeyword(value: string): string {
+	return value
+		.trim()
+		.toLowerCase()
+		.replace(/[\s]+/gi, ' ')
+		.replace(/[^\w\d\s\-_]+/gi, '');
+}
+
+export function toKeywords(value: string): string[] {
 	return Array.from(
 		new Set(
-			values
-				.flatMap((value) => value.split(/[\s,]+/gi))
-				.map((value) => toURLSafe(value))
+			value
+				.split(/[\s,]+/gi)
+				.map((value) => toKeyword(value))
 				.filter((value) => value && !STOP_WORDS.has(value))
 		)
-	).join(',');
+	);
 }

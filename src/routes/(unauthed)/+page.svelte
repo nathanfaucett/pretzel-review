@@ -22,8 +22,25 @@
 		sortOrder.set(get(sortOrder) === 'desc' ? 'asc' : 'desc');
 	}
 
-	const siteKeywords =
-		'pretzel,soft,bavarian,review,atlanta,atl,ga,georgia,nathan,maggie,margaret,faucett';
+	export const siteKeywords = [
+		'pretzel',
+		'pretzels',
+		'soft pretzel',
+		'bavarian',
+		'bavarian pretzel',
+		'review',
+		'pretzel review',
+		'app',
+		'review app',
+		'atlanta',
+		'atl',
+		'ga',
+		'georgia',
+		'nathan',
+		'maggie',
+		'margaret',
+		'faucett'
+	];
 </script>
 
 <script lang="ts">
@@ -32,7 +49,7 @@
 	import LL from '$lib/i18n/i18n-svelte';
 	import type { PageData } from './$types';
 	import { getReview, type Post } from '$lib/posts';
-	import { keywords, prettyToFixed } from '$lib/util';
+	import { prettyToFixed, toKeywords } from '$lib/util';
 	import ArrowUp from 'lucide-svelte/icons/arrow-up';
 	import ArrowDown from 'lucide-svelte/icons/arrow-down';
 
@@ -71,10 +88,10 @@
 <SvelteSeo
 	title={$LL.home.title()}
 	description={$LL.home.description()}
-	keywords={keywords(
-		siteKeywords,
-		...data.posts.map((post) => `${post.title} ${post.description}`)
-	)}
+	keywords={[
+		...siteKeywords,
+		...data.posts.flatMap((post) => toKeywords(`${post.title} ${post.description}`))
+	].join(',')}
 />
 
 <div class="container mx-auto mt-10 flex flex-grow flex-col px-10">

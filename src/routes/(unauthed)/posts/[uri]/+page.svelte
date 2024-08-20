@@ -3,8 +3,9 @@
 	import type { PageData } from './$types';
 	import LL from '$lib/i18n/i18n-svelte';
 	import { base } from '$app/paths';
-	import { keywords, prettyToFixed } from '$lib/util';
+	import { prettyToFixed, toKeywords } from '$lib/util';
 	import { getReview } from '$lib/posts';
+	import { siteKeywords } from '../../+page.svelte';
 
 	export let data: PageData;
 
@@ -14,7 +15,10 @@
 <SvelteSeo
 	title={data.post.title}
 	description={data.post.description}
-	keywords={keywords(data.post.title, data.post.description, data.post.address)}
+	keywords={[
+		...siteKeywords,
+		...toKeywords(`${data.post.title} ${data.post.description} ${data.post.address}`)
+	].join(',')}
 	openGraph={{
 		title: data.post.title,
 		description: data.post.description,
