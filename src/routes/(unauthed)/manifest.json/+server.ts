@@ -12,7 +12,7 @@ export async function GET() {
 		manifest_version: 3,
 		icons: [
 			{
-				src: `${base}/icon256x256-white.png`,
+				src: `${base}/icon256x256.png`,
 				sizes: '256x256',
 				type: 'image/png'
 			}
@@ -21,7 +21,7 @@ export async function GET() {
 		start_url: `${base}/?source=pwa`,
 		scope: `${base}/`,
 		display: 'standalone',
-		background_color: '#111827',
-		theme_color: '#3B82F6'
+		background_color: 'white',
+		theme_color: 'black'
 	});
 }
