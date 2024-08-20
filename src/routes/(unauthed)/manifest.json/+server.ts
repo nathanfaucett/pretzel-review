@@ -12,7 +12,7 @@ export async function GET() {
 		manifest_version: 3,
 		icons: [
 			{
-				src: `${base}/icon256x256.png`,
+				src: `${base}/icon256x256-white.png`,
 				sizes: '256x256',
 				type: 'image/png'
 			}
