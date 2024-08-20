@@ -1,0 +1,1 @@
+import{p as r}from"../chunks/index.w7Z0lw8x.js";import{P as l}from"../chunks/_page.nKV1s81i.js";const a=async e=>(await e.parent(),{posts:Object.values(r).sort((t,o)=>o.createdTs-t.createdTs)}),n=Object.freeze(Object.defineProperty({__proto__:null,load:a},Symbol.toStringTag,{value:"Module"}));export{l as component,n as universal};
