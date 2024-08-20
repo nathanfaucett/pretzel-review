@@ -67,7 +67,7 @@ type RootTranslation = {
 		 */
 		title: string
 		/**
-		 * S​o​f​t​ ​P​r​e​t​z​e​l​s​ ​R​e​v​i​e​w​ ​w​e​b​s​i​t​e
+		 * S​o​f​t​ ​P​r​e​t​z​e​l​s​ ​R​e​v​i​e​w​ ​a​p​p​l​i​c​a​t​i​o​n​/​w​e​b​s​i​t​e
 		 */
 		description: string
 		/**
@@ -297,7 +297,7 @@ export type TranslationFunctions = {
 		 */
 		title: () => LocalizedString
 		/**
-		 * Soft Pretzels Review website
+		 * Soft Pretzels Review application/website
 		 */
 		description: () => LocalizedString
 		/**

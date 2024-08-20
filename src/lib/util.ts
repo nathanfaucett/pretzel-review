@@ -124,3 +124,23 @@ export function toKeywords(value: string): string[] {
 		)
 	);
 }
+
+export const siteKeywords = [
+	'pretzel',
+	'soft pretzel',
+	'bavarian',
+	'bavarian pretzel',
+	'review',
+	'pretzel review',
+	'review application',
+	'review app',
+	'review website',
+	'atlanta',
+	'atl',
+	'ga',
+	'georgia',
+	'nathan',
+	'maggie',
+	'margaret',
+	'faucett'
+];

@@ -21,26 +21,6 @@
 	function onSortOrderSwitch() {
 		sortOrder.set(get(sortOrder) === 'desc' ? 'asc' : 'desc');
 	}
-
-	export const siteKeywords = [
-		'pretzel',
-		'pretzels',
-		'soft pretzel',
-		'bavarian',
-		'bavarian pretzel',
-		'review',
-		'pretzel review',
-		'app',
-		'review app',
-		'atlanta',
-		'atl',
-		'ga',
-		'georgia',
-		'nathan',
-		'maggie',
-		'margaret',
-		'faucett'
-	];
 </script>
 
 <script lang="ts">
@@ -49,7 +29,7 @@
 	import LL from '$lib/i18n/i18n-svelte';
 	import type { PageData } from './$types';
 	import { getReview, type Post } from '$lib/posts';
-	import { prettyToFixed, toKeywords } from '$lib/util';
+	import { prettyToFixed, siteKeywords, toKeywords } from '$lib/util';
 	import ArrowUp from 'lucide-svelte/icons/arrow-up';
 	import ArrowDown from 'lucide-svelte/icons/arrow-down';
 
@@ -92,6 +72,15 @@
 		...siteKeywords,
 		...data.posts.flatMap((post) => toKeywords(`${post.title} ${post.description}`))
 	].join(',')}
+	openGraph={{
+		title: $LL.home.title(),
+		description: $LL.home.description(),
+		images: data.posts.flatMap((post) =>
+			post.images.map((image) => ({
+				url: image
+			}))
+		)
+	}}
 />
 
 <div class="container mx-auto mt-10 flex flex-grow flex-col px-10">

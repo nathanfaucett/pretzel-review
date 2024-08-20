@@ -21,7 +21,7 @@ const en = {
 	},
 	home: {
 		title: 'Pretzel Review',
-		description: 'Soft Pretzels Review website',
+		description: 'Soft Pretzels Review application/website',
 		searchPlaceholder: 'Search...',
 		sortBy: {
 			date: 'Date',

@@ -3,9 +3,8 @@
 	import type { PageData } from './$types';
 	import LL from '$lib/i18n/i18n-svelte';
 	import { base } from '$app/paths';
-	import { prettyToFixed, toKeywords } from '$lib/util';
+	import { prettyToFixed, siteKeywords, toKeywords } from '$lib/util';
 	import { getReview } from '$lib/posts';
-	import { siteKeywords } from '../../+page.svelte';
 
 	export let data: PageData;
 
