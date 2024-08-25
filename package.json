@@ -52,7 +52,7 @@
 		"@aicacia/debounce": "0",
 		"@aicacia/rand": "0",
 		"@aicacia/string-fuzzy_equals": "0",
-		"@octokit/rest": "20",
+		"@octokit/rest": "21",
 		"@svelte-put/clickoutside": "3",
 		"buffer": "6",
 		"locale-codes": "1",
