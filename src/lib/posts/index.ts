@@ -1,3 +1,4 @@
+import post1729770095615 from './1729770095615-ameris-bank-amphitheatre-concession-stands';
 import post1722098861162 from './1722098861162-thinking-man-tavern';
 import post1723938214780 from './1723938214780-the-porter-beer-bar';
 import post1723931426927 from './1723931426927-the-albert';
@@ -61,3 +62,4 @@ posts[`${post1723141235240.createdTs}-${post1723141235240.uri}`] = post172314123
 posts[`${post1723931426927.createdTs}-${post1723931426927.uri}`] = post1723931426927;
 posts[`${post1723938214780.createdTs}-${post1723938214780.uri}`] = post1723938214780;
 posts[`${post1722098861162.createdTs}-${post1722098861162.uri}`] = post1722098861162;
+posts[`${post1729770095615.createdTs}-${post1729770095615.uri}`] = post1729770095615;
