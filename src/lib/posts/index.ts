@@ -1,3 +1,4 @@
+import post1731372650356 from './1731372650356-fad-irish-pub';
 import post1730058435165 from './1730058435165-the-corner-pub';
 import post1729770095615 from './1729770095615-ameris-bank-amphitheatre-concession-stands';
 import post1722098861162 from './1722098861162-thinking-man-tavern';
@@ -65,3 +66,4 @@ posts[`${post1723938214780.createdTs}-${post1723938214780.uri}`] = post172393821
 posts[`${post1722098861162.createdTs}-${post1722098861162.uri}`] = post1722098861162;
 posts[`${post1729770095615.createdTs}-${post1729770095615.uri}`] = post1729770095615;
 posts[`${post1730058435165.createdTs}-${post1730058435165.uri}`] = post1730058435165;
+posts[`${post1731372650356.createdTs}-${post1731372650356.uri}`] = post1731372650356;
