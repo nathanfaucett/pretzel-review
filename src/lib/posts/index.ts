@@ -37,11 +37,11 @@ export type Post = {
 };
 
 export function getReview(post: Post) {
-	const flavor = (post.review.flavor / 10) * 0.5;
+	const flavor = (post.review.flavor / 10) * 0.4;
 	const texture = (post.review.texture / 10) * 0.3;
-	const shape = (post.review.shape / 10) * 0.05;
-	const salt = (post.review.salt / 10) * 0.1;
-	const sides = (post.review.sides / 10) * 0.05;
+	const shape = (post.review.shape / 10) * 0.1;
+	const salt = (post.review.salt / 10) * 0.05;
+	const sides = (post.review.sides / 10) * 0.15;
 	return (flavor + texture + shape + salt + sides) * 10;
 }
 

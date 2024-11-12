@@ -9,7 +9,7 @@ const post: Post = {
 		flavor: 8.3,
 		salt: 3.2,
 		shape: 6.6,
-		texture: 7.1,
+		texture: 6.3,
 		sides: 9.5
 	},
 	address: '5920 Roswell Rd Unit C-103, Sandy Springs, GA 30328',

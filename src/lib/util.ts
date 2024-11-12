@@ -1,4 +1,4 @@
-import { browser, building } from '$app/environment';
+import { browser } from '$app/environment';
 import { MAX_INT, random } from '@aicacia/rand';
 import { PUBLIC_URL } from '$env/static/public';
 
