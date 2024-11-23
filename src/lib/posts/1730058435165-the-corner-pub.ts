@@ -8,13 +8,13 @@ const post: Post = {
   review: {
     flavor: 7.6,
     salt: 7.9,
-    shape: 7.3,
+    shape: 6.4,
     texture: 9.1,
     sides: 5
   },
   address: '627 E College Ave, Decatur, GA 30030',
   images: [image0],
-  updatedTs: 1732383931424,
+  updatedTs: 1732384178935,
   createdTs: 1730058435165
 };
 
