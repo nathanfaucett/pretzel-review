@@ -1,9 +1,9 @@
+import post1729770095615 from './1729770095615-ameris-bank-amphitheatre-concession-stands';
 import post1732410768689 from './1732410768689-rocky-mountain-pizza-company';
 import post1716782422460 from './1716782422460-crystal-beer-parlor';
 import post1719018191808 from './1719018191808-meltons-app-and-tap';
 import post1730058435165 from './1730058435165-the-corner-pub';
 import post1731372650356 from './1731372650356-fad-irish-pub';
-import post1729770095615 from './1729770095615-ameris-bank-amphitheatre-concession-stands';
 import post1722098861162 from './1722098861162-thinking-man-tavern';
 import post1723938214780 from './1723938214780-the-porter-beer-bar';
 import post1723931426927 from './1723931426927-the-albert';
@@ -63,9 +63,9 @@ posts[`${post1723141235240.createdTs}-${post1723141235240.uri}`] = post172314123
 posts[`${post1723931426927.createdTs}-${post1723931426927.uri}`] = post1723931426927;
 posts[`${post1723938214780.createdTs}-${post1723938214780.uri}`] = post1723938214780;
 posts[`${post1722098861162.createdTs}-${post1722098861162.uri}`] = post1722098861162;
-posts[`${post1729770095615.createdTs}-${post1729770095615.uri}`] = post1729770095615;
 posts[`${post1731372650356.createdTs}-${post1731372650356.uri}`] = post1731372650356;
 posts[`${post1730058435165.createdTs}-${post1730058435165.uri}`] = post1730058435165;
 posts[`${post1719018191808.createdTs}-${post1719018191808.uri}`] = post1719018191808;
 posts[`${post1716782422460.createdTs}-${post1716782422460.uri}`] = post1716782422460;
 posts[`${post1732410768689.createdTs}-${post1732410768689.uri}`] = post1732410768689;
+posts[`${post1729770095615.createdTs}-${post1729770095615.uri}`] = post1729770095615;
