@@ -8,13 +8,13 @@ const post: Post = {
   review: {
     flavor: 1.2,
     salt: 4.5,
-    shape: 5.1,
+    shape: 5.9,
     texture: 2.1,
     sides: 5
   },
   address: '2200 Encore Pkwy, Alpharetta, GA 30009',
   images: [image0],
-  updatedTs: 1732411221972,
+  updatedTs: 1732411299658,
   createdTs: 1729770095615
 };
 
