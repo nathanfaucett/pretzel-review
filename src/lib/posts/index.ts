@@ -1,3 +1,4 @@
+import post1732410768689 from './1732410768689-rocky-mountain-pizza-company';
 import post1716782422460 from './1716782422460-crystal-beer-parlor';
 import post1719018191808 from './1719018191808-meltons-app-and-tap';
 import post1730058435165 from './1730058435165-the-corner-pub';
@@ -67,3 +68,4 @@ posts[`${post1731372650356.createdTs}-${post1731372650356.uri}`] = post173137265
 posts[`${post1730058435165.createdTs}-${post1730058435165.uri}`] = post1730058435165;
 posts[`${post1719018191808.createdTs}-${post1719018191808.uri}`] = post1719018191808;
 posts[`${post1716782422460.createdTs}-${post1716782422460.uri}`] = post1716782422460;
+posts[`${post1732410768689.createdTs}-${post1732410768689.uri}`] = post1732410768689;
