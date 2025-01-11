@@ -1,3 +1,4 @@
+import post1736634358475 from './1736634358475-brewhouse';
 import post1736627833339 from './1736627833339-amc-north-dekalb-16';
 import post1734301373383 from './1734301373383-osullivans-irish-pub';
 import post1730058435165 from './1730058435165-the-corner-pub';
@@ -73,3 +74,4 @@ posts[`${post1729770095615.createdTs}-${post1729770095615.uri}`] = post172977009
 posts[`${post1730058435165.createdTs}-${post1730058435165.uri}`] = post1730058435165;
 posts[`${post1734301373383.createdTs}-${post1734301373383.uri}`] = post1734301373383;
 posts[`${post1736627833339.createdTs}-${post1736627833339.uri}`] = post1736627833339;
+posts[`${post1736634358475.createdTs}-${post1736634358475.uri}`] = post1736634358475;
