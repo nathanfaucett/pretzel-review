@@ -1,3 +1,4 @@
+import post1737234023124 from './1737234023124-halfway-crooks-beer';
 import post1719270711525 from './1719270711525-the-springs-cinema--taphouse';
 import post1736634358475 from './1736634358475-brewhouse';
 import post1736627833339 from './1736627833339-amc-north-dekalb-16';
@@ -75,3 +76,4 @@ posts[`${post1734301373383.createdTs}-${post1734301373383.uri}`] = post173430137
 posts[`${post1736627833339.createdTs}-${post1736627833339.uri}`] = post1736627833339;
 posts[`${post1736634358475.createdTs}-${post1736634358475.uri}`] = post1736634358475;
 posts[`${post1719270711525.createdTs}-${post1719270711525.uri}`] = post1719270711525;
+posts[`${post1737234023124.createdTs}-${post1737234023124.uri}`] = post1737234023124;
