@@ -8,13 +8,13 @@ const post: Post = {
   review: {
     flavor: 4.9,
     salt: 5.8,
-    shape: 4.9,
+    shape: 5,
     texture: 4.8,
-    sides: 9
+    sides: 8.1
   },
   address: '60 Georgia Ave SE, Atlanta, GA 30312',
   images: [image0],
-  updatedTs: 1737234023124,
+  updatedTs: 1737234460315,
   createdTs: 1737234023124
 };
 
