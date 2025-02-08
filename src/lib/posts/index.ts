@@ -1,3 +1,4 @@
+import post1739041974749 from './1739041974749-new-realm-brewing-co';
 import post1739041748588 from './1739041748588-atkins-park-restaurant--bar---virginia-highland';
 import post1737234023124 from './1737234023124-halfway-crooks-beer';
 import post1719270711525 from './1719270711525-the-springs-cinema--taphouse';
@@ -79,3 +80,4 @@ posts[`${post1736634358475.createdTs}-${post1736634358475.uri}`] = post173663435
 posts[`${post1719270711525.createdTs}-${post1719270711525.uri}`] = post1719270711525;
 posts[`${post1737234023124.createdTs}-${post1737234023124.uri}`] = post1737234023124;
 posts[`${post1739041748588.createdTs}-${post1739041748588.uri}`] = post1739041748588;
+posts[`${post1739041974749.createdTs}-${post1739041974749.uri}`] = post1739041974749;
