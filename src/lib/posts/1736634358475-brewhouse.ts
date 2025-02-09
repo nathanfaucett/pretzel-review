@@ -6,15 +6,15 @@ const post: Post = {
   uri: 'brewhouse',
   description: `This is a classically shaped American style pretzel. The deep fry gives it a lovely flavor and texture. Do to its size it is more dense and chewy than the larger classic bavarian style but overall is a worth while endeavor. We did not partake in the add on queso but we not disappointed by their delicious house made mustard, a unique flavor experience and a must try.`,
   review: {
-    flavor: 8.1,
+    flavor: 7.1,
     salt: 8,
     shape: 5.5,
-    texture: 7,
-    sides: 8.5
+    texture: 7.4,
+    sides: 5
   },
   address: '401 Moreland Ave NE, Atlanta, GA 30307',
   images: [image0],
-  updatedTs: 1736634358475,
+  updatedTs: 1739101392728,
   createdTs: 1736634358475
 };
 
