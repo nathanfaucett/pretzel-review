@@ -7,8 +7,8 @@ const post: Post = {
   description: `Don't judge a pretzel from its shape. This pretzel is serving the delectable outer shell crunch we all crave with a perfectly balanced middle that will hang on your tastebuds for long after your meal is complete.`,
   review: {
     flavor: 9.7,
-    salt: 6.1,
-    shape: 3,
+    salt: 6.3,
+    shape: 0,
     texture: 9.9,
     sides: 5.4
   },

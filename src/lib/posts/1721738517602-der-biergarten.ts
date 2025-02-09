@@ -6,10 +6,10 @@ const post: Post = {
   uri: 'der-biergarten',
   description: `it comes with three different mustards, one is smooth with horseraddish, the other two are stone ground with various spices.`,
   review: {
-    flavor: 5.1,
+    flavor: 5.4,
     salt: 5.9,
-    shape: 7.2,
-    texture: 5.4,
+    shape: 7.9,
+    texture: 5.9,
     sides: 8.6
   },
   address: '300 Marietta St NW, Atlanta, GA 30313',

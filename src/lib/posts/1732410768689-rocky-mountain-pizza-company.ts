@@ -6,10 +6,10 @@ const post: Post = {
   uri: 'rocky-mountain-pizza-company',
   description: `Not just a pizza place their pretzel did not disappoint. Crunchy outer shell and well baked fluffy middle. Classic whole seed mustard for the dip was a welcome complement to this tasty treat.`,
   review: {
-    flavor: 6.9,
+    flavor: 7.4,
     salt: 7.1,
-    shape: 6.9,
-    texture: 8.1,
+    shape: 4.9,
+    texture: 6.9,
     sides: 5.6
   },
   address: '1005 Hemphill Ave NW, Atlanta, GA 30318',

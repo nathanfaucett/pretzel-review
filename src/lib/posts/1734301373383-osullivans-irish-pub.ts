@@ -8,7 +8,7 @@ const post: Post = {
   review: {
     flavor: 8.6,
     salt: 7.3,
-    shape: 9.1,
+    shape: 5.8,
     texture: 8.8,
     sides: 7.6
   },

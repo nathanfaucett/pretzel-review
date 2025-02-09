@@ -7,8 +7,8 @@ const post: Post = {
   description: `This is as basic as it gets, thawed and hung out in one of those pretzel boxes. Left to dry out and ruin your day.`,
   review: {
     flavor: 1.2,
-    salt: 4.5,
-    shape: 5.9,
+    salt: 3.1,
+    shape: 3.7,
     texture: 2.1,
     sides: 5
   },

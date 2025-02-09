@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: 22
 
-      - run: npm install -g pnpm@9
+      - run: npm install -g pnpm@10
       - run: pnpm install
       - run: echo "PUBLIC_URL=${PUBLIC_URL}" >> .env
       - run: NODE_ENV=production pnpm build

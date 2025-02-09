@@ -7,8 +7,8 @@ const post: Post = {
 	description: `Very buttery crisp crust and moist on the inside, comes with standard brown mustard and beer cheese.`,
 	review: {
 		flavor: 8.9,
-		salt: 8.1,
-		shape: 6.1,
+		salt: 6.1,
+		shape: 5.7,
 		texture: 7.9,
 		sides: 5
 	},

@@ -6,9 +6,9 @@ const post: Post = {
 	uri: 'bodensee',
 	description: `Comes with a thick beer cheese that is super mid.`,
 	review: {
-		flavor: 5.8,
+		flavor: 5.1,
 		salt: 5.6,
-		shape: 6.8,
+		shape: 6.3,
 		texture: 5.9,
 		sides: 1
 	},

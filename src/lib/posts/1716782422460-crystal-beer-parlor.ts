@@ -6,11 +6,11 @@ const post: Post = {
   uri: 'crystal-beer-parlor',
   description: `Came with Gouda cheese dipping sauce and it was quite good.`,
   review: {
-    flavor: 5.6,
+    flavor: 4.6,
     salt: 1.5,
     shape: 5.3,
     texture: 4.8,
-    sides: 5
+    sides: 6
   },
   address: '301 W Jones St, Savannah, GA 31401',
   images: [image0],

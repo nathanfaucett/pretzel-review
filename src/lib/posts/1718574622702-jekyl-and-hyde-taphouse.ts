@@ -6,9 +6,9 @@ const post: Post = {
 	uri: 'jekyl-and-hyde-taphouse',
 	description: `Came with limerick beer cheese and honey mustard.`,
 	review: {
-		flavor: 7.1,
-		salt: 7.6,
-		shape: 9.5,
+		flavor: 7.3,
+		salt: 7.1,
+		shape: 8.8,
 		texture: 7.6,
 		sides: 5.1
 	},

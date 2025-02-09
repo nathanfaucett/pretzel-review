@@ -8,8 +8,8 @@ const post: Post = {
   review: {
     flavor: 8.3,
     salt: 5.2,
-    shape: 3.4,
-    texture: 5.3,
+    shape: 3.1,
+    texture: 5.9,
     sides: 4.6
   },
   address: '340 W Ponce de Leon Ave, Decatur, GA 30030',

@@ -6,8 +6,8 @@ const post: Post = {
   uri: 'thinking-man-tavern',
   description: `One reviewer said it reminded her of corndogs, the cheese dip was fantastic and the mustard is near perfect for pretzels.`,
   review: {
-    flavor: 4.1,
-    salt: 7.1,
+    flavor: 3.1,
+    salt: 5.1,
     shape: 3.9,
     texture: 3.6,
     sides: 5.5

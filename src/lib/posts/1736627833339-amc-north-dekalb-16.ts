@@ -7,8 +7,8 @@ const post: Post = {
   description: `Do you like store brought white bread toasted in a toaster oven covered in fake butter served with a side of high-school concession stand nacho cheese in a pizza box from the 80's? no? neither do we. Please do not order the "Bavarian Legend". It's both a insult to the lovely region of Bavaria, and a wild misuse of the word legend. This is the first pretzel we have ever not finished.`,
   review: {
     flavor: 0,
-    salt: 4,
-    shape: 2.3,
+    salt: 3,
+    shape: 1,
     texture: 0,
     sides: 0
   },

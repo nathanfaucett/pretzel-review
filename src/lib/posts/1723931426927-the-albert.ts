@@ -6,11 +6,11 @@ const post: Post = {
   uri: 'the-albert',
   description: `At first bite the post frozen texture overtakes the flavor of this visually promising pretzel. The dipping cheese was on its second reheat from its canned origins.`,
   review: {
-    flavor: 3.9,
-    salt: 4.9,
-    shape: 4.9,
-    texture: 4.1,
-    sides: 5
+    flavor: 2.9,
+    salt: 4.1,
+    shape: 3.9,
+    texture: 3.8,
+    sides: 4.3
   },
   address: '918 Austin Ave NE, Atlanta, GA 30307',
   images: [image0],

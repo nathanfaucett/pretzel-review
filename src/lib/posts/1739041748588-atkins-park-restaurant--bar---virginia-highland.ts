@@ -10,7 +10,7 @@ const post: Post = {
     salt: 1,
     shape: 0,
     texture: 0,
-    sides: 5.1
+    sides: 4.4
   },
   address: '794 North Highland Avenue Northeast, Atlanta, GA 30306',
   images: [image0],

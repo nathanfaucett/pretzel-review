@@ -6,10 +6,10 @@ const post: Post = {
   uri: 'the-corner-pub',
   description: `Deep fried, very crunchy, very salty, rich in flavor needs no sauces.`,
   review: {
-    flavor: 7.6,
-    salt: 7.9,
-    shape: 6.4,
-    texture: 9.1,
+    flavor: 9.1,
+    salt: 8.1,
+    shape: 5.4,
+    texture: 9.4,
     sides: 0
   },
   address: '627 E College Ave, Decatur, GA 30030',

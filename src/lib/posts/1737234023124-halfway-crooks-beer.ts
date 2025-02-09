@@ -6,9 +6,9 @@ const post: Post = {
   uri: 'halfway-crooks-beer',
   description: `Its probably frozen,  but they warm it up very well and the honey mustard is amazing and worth it alone.`,
   review: {
-    flavor: 4.9,
-    salt: 5.8,
-    shape: 4.9,
+    flavor: 4.2,
+    salt: 5.1,
+    shape: 4.4,
     texture: 3.8,
     sides: 7.6
   },

@@ -6,9 +6,9 @@ const post: Post = {
   uri: 'new-realm-brewing-co',
   description: `This is one of our go-to's, don't let the off color beer cheese distract you, its good, not great. The pretzel itself what you'd want from a Jumbo Bavarian Pretzel. You won't leave disappointed in this big guy.`,
   review: {
-    flavor: 7.2,
+    flavor: 8.2,
     salt: 6.2,
-    shape: 9.1,
+    shape: 7.1,
     texture: 8.9,
     sides: 6
   },

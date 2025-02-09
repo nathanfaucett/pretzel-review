@@ -6,8 +6,8 @@ const post: Post = {
   uri: 'meltons-app-and-tap',
   description: `Came with a super below average nacho cheese dip and a basic stone ground mustard`,
   review: {
-    flavor: 5.1,
-    salt: 5.1,
+    flavor: 4.6,
+    salt: 4.1,
     shape: 6.4,
     texture: 4.1,
     sides: 5

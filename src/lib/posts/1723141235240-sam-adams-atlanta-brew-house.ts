@@ -7,8 +7,8 @@ const post: Post = {
   description: `Looking for a classic but delicious pretzel? This is it! Delicious flavor moist center and decent sides. The mustard is your classic whole seed yellow mustard and a nice pub cheese topped with paprika for "fancy" flare.`,
   review: {
     flavor: 8.5,
-    salt: 6.8,
-    shape: 6.9,
+    salt: 5.3,
+    shape: 8.9,
     texture: 8.6,
     sides: 7.1
   },

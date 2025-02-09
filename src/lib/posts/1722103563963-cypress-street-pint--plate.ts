@@ -6,9 +6,9 @@ const post: Post = {
   uri: 'cypress-street-pint--plate',
   description: `Would come back for here for the pretzel alone! The sides were a delicious blend of something classic and something new, you'll get a delectable pub cheese and a spicy BBQ mustard that's a real standout!`,
   review: {
-    flavor: 8.7,
+    flavor: 9.2,
     salt: 6.9,
-    shape: 9.6,
+    shape: 9.1,
     texture: 8.8,
     sides: 9.8
   },
