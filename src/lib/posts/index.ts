@@ -1,3 +1,4 @@
+import post1741607490939 from './1741607490939-bantam-pub';
 import post1721251536575 from './1721251536575-brick-store-pub';
 import post1736634358475 from './1736634358475-brewhouse';
 import post1739041974749 from './1739041974749-new-realm-brewing-co';
@@ -81,3 +82,4 @@ posts[`${post1739041748588.createdTs}-${post1739041748588.uri}`] = post173904174
 posts[`${post1739041974749.createdTs}-${post1739041974749.uri}`] = post1739041974749;
 posts[`${post1736634358475.createdTs}-${post1736634358475.uri}`] = post1736634358475;
 posts[`${post1721251536575.createdTs}-${post1721251536575.uri}`] = post1721251536575;
+posts[`${post1741607490939.createdTs}-${post1741607490939.uri}`] = post1741607490939;
