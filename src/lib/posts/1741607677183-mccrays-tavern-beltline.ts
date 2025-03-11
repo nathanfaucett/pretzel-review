@@ -4,7 +4,7 @@ import image0 from '$lib/assets/1741607677183-mccrays-tavern-beltline-0.webp';
 const post: Post = {
   title: 'McCray\'s Tavern Beltline',
   uri: 'mccrays-tavern-beltline',
-  description: `Irish Pubs normally have a great beer pretzel and this place does not disappoint, sides are a classic honey mustard and a queso that is a little too wet but gets the job done.`,
+  description: `Irish Pubs normally have a great beer pretzel and this place does not disappoint, sides are a classic honey mustard and a queso that is a little too wet but is welcomed since the preztel was a bit dry.`,
   review: {
     flavor: 6.1,
     salt: 6.2,
