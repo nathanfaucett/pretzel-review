@@ -1,3 +1,4 @@
+import post1774740039970 from './1774740039970-magic-kingdom-park';
 import post1752962562296 from './1752962562296-tucker-brewing-company';
 import post1752662908426 from './1752662908426-grace-omalleys';
 import post1741607677183 from './1741607677183-mccrays-tavern-beltline';
@@ -89,3 +90,4 @@ posts[`${post1741607490939.createdTs}-${post1741607490939.uri}`] = post174160749
 posts[`${post1741607677183.createdTs}-${post1741607677183.uri}`] = post1741607677183;
 posts[`${post1752662908426.createdTs}-${post1752662908426.uri}`] = post1752662908426;
 posts[`${post1752962562296.createdTs}-${post1752962562296.uri}`] = post1752962562296;
+posts[`${post1774740039970.createdTs}-${post1774740039970.uri}`] = post1774740039970;
