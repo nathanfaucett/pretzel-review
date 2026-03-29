@@ -263,7 +263,7 @@
 			placeholder={$LL.posts.descriptionPlaceholder()}
 			bind:value={description}
 			on:input={onChange}
-		/>
+		></textarea>
 		<InputResults name="description" {result} />
 	</div>
 	<div class="mb-2">

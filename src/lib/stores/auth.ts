@@ -1,7 +1,7 @@
 import { decrypt } from '$lib/crypto';
 import type { Octokit } from '@octokit/rest';
 import { localstorageWritable } from 'svelte-localstorage-writable';
-import { derived, get } from 'svelte/store';
+import { derived } from 'svelte/store';
 
 const ENCRYPTED_SECRET =
 	'Oxa19z3fwTHCy0iVsXkCltPZe0ML22ZxJ5+CeqSY9fZimQBMz2esBJrm5Gs+Q8IkQHPJhegmQ/CPGd0oPey2gIEmiUa9lpdHkUkYAQk2P+bJmjvVuwIh4d1YXUpoqSDK1UXXaDD/b9BXsZN8sw==';
@@ -22,7 +22,11 @@ function getOctokit() {
 let octokitInstance: Promise<Octokit>;
 
 export function getOctokitInstance() {
-	const authSecret = get(secret);
+	if (typeof window === 'undefined') {
+		return Promise.reject('Invalid secret');
+	}
+	const stored = localStorage.getItem('secret');
+	const authSecret = stored ? stored : null;
 	if (!authSecret) {
 		return Promise.reject('Invalid secret');
 	}

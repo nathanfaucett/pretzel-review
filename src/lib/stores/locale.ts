@@ -1,5 +1,5 @@
 import { browser } from '$app/environment';
-import { derived, writable, get } from 'svelte/store';
+import { derived, writable } from 'svelte/store';
 
 const localeWritable = writable(browser ? navigator.language : 'en-US');
 
@@ -10,11 +10,13 @@ export function setLocale(locale: string) {
 }
 
 export function getLocale() {
-	return get(localeWritable);
+	return browser ? navigator.language : 'en-US';
 }
 
 export function useBrowserLocale() {
-	localeWritable.set(navigator.language);
+	if (browser) {
+		localeWritable.set(navigator.language);
+	}
 }
 
 if (browser) {

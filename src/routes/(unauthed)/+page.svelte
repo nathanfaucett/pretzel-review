@@ -1,5 +1,5 @@
 <script lang="ts" context="module">
-	import { get, writable } from 'svelte/store';
+	import { writable } from 'svelte/store';
 	import { localstorageWritable } from 'svelte-localstorage-writable';
 
 	let search = writable('');
@@ -19,7 +19,7 @@
 	}
 
 	function onSortOrderSwitch() {
-		sortOrder.set(get(sortOrder) === 'desc' ? 'asc' : 'desc');
+		sortOrder.update((v) => (v === 'desc' ? 'asc' : 'desc'));
 	}
 </script>
 

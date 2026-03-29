@@ -29,7 +29,6 @@
 	import Spinner from './Spinner.svelte';
 	import FileViewer from './FileViewer.svelte';
 	import LL from '$lib/i18n/i18n-svelte';
-	import { get } from 'svelte/store';
 
 	export let className: string | undefined = undefined;
 	export let files: File[] = [];
@@ -99,7 +98,7 @@
 					updateFileUpload(fileUpload.id, { file, processing: false });
 				} catch (error) {
 					console.error(error);
-					createNotification(get(LL).errors.message.failedToProcessImageMessage());
+					createNotification($LL.errors.message.failedToProcessImageMessage());
 					updateFileUpload(fileUpload.id, { processing: false });
 				}
 			})

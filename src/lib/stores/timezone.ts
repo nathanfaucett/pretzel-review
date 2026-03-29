@@ -1,5 +1,5 @@
 import { browser } from '$app/environment';
-import { derived, writable, get } from 'svelte/store';
+import { derived, writable } from 'svelte/store';
 
 const defaultTimezone = 'America/New_York';
 const timezoneWritable = writable(browser ? getBrowserTimezoneRequired() : defaultTimezone);
@@ -11,11 +11,13 @@ export function setTimezone(timezone: string) {
 }
 
 export function getTimezone() {
-	return get(timezoneWritable);
+	return browser ? getBrowserTimezoneRequired() : defaultTimezone;
 }
 
 export function useBrowserTimezone() {
-	timezoneWritable.set(navigator.language);
+	if (browser) {
+		timezoneWritable.set(navigator.language);
+	}
 }
 
 export function getBrowserTimezone() {
